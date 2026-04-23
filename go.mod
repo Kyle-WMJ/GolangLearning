@@ -1,4 +1,4 @@
-module go_study1
+module GolangLearning
 
 go 1.26
 
