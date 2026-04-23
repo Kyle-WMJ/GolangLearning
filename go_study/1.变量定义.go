@@ -34,7 +34,7 @@ func main() {
 	var name2 = "WMJ2"
 	fmt.Println(name2)
 
-	//声明并赋值 短生命符号
+	//声明并赋值 :声明符号
 	name3 := "WMJ3"
 	fmt.Println(name3)
 
