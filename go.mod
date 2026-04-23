@@ -1,3 +1,4 @@
-module go_study
+module go_study1
 
-go 1.26.2
+go 1.26
+
