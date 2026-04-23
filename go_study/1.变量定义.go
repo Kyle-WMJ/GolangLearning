@@ -2,8 +2,8 @@
 package main
 
 import (
+	"GolangLearning/go_study/version"
 	"fmt"
-	"go_study1/go_study/version"
 )
 
 func hello() {
