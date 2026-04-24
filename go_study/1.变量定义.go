@@ -7,13 +7,13 @@ import (
 )
 
 func hello() {
-	fmt.Println(age) //全局变量不遵守先后顺序，也不必一定要用
+	fmt.Println(age) // 全局变量不遵守先后顺序，也不必一定要用
 	fmt.Println("hello world")
 }
 
 var age = 12
 
-const version1 = "2.0.1" //常量必须赋值
+const version1 = "2.0.1" // 常量必须赋值
 
 var (
 	s1 string = "str1"
@@ -30,11 +30,11 @@ func main() {
 	var name1 string = "WMJ1"
 	fmt.Println(name1)
 
-	//省略类型
+	// 省略类型
 	var name2 = "WMJ2"
 	fmt.Println(name2)
 
-	//声明并赋值 :声明符号
+	// 声明并赋值 :声明符号
 	name3 := "WMJ3"
 	fmt.Println(name3)
 
@@ -46,5 +46,5 @@ func main() {
 	fmt.Println(s1, s2)
 
 	fmt.Println(version.Version2)
-	//fmt.Println(version.fengfeng)
+	// fmt.Println(version.fengfeng)
 }

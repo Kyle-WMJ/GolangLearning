@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func main() {
-	// 字典 key-value映射
+	// 字典 key-value映射, 创建必须赋值或初始化，否则会报错
+	// map1 := make(map[string]int)
+	// fmt.Println(map1)
 	var userMap map[int]string = map[int]string{
 		1: "WMJ",
 		2: "张三",
@@ -20,4 +22,17 @@ func main() {
 
 	delete(userMap, 3) // 删除key为3的元素
 	fmt.Println(userMap)
+
+	// 会报错，因为aMap没有赋值，所以不能直接赋值给它
+	// var aMap map[string]string
+	// aMap["age"] = "15"
+	// fmt.Println(aMap)
+
+	// 正确写法
+	var aMap = map[string]string{}
+	aMap["age"] = "15"
+	fmt.Println(aMap)
+
+	var bMap = make(map[string]string)
+	bMap["gender"] = "male"
 }
