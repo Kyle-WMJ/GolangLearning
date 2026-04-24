@@ -47,4 +47,22 @@ func main() {
 	if age >= 100 && age <= 120 {
 		fmt.Println("长寿")
 	}
+
+	// switch
+	switch {
+	case (age <= 18):
+		fmt.Println("未成年")
+	case (age >= 18):
+		fmt.Println("成年人")
+	}
+
+	switch day := 1; day {
+	case 1:
+		fmt.Println("one")
+		fallthrough // 强制继续执行下一个case语句
+		// fmt.Println("three")
+	case 2:
+		fmt.Println("two")
+	}
+
 }
