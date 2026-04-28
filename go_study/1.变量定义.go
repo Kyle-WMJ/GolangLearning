@@ -47,5 +47,4 @@ func main() {
 
 	fmt.Println(version.Version2)
 	// fmt.Println(version.fengfeng)
-
 }
