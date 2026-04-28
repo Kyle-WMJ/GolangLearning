@@ -33,5 +33,4 @@ func main() {
 	var age int
 	fmt.Scan(&age)
 	fmt.Println(age)
-
 }
