@@ -26,7 +26,7 @@ func main() {
 
 	// 通过make函数创建指定长度，容量的切片, make([]类型, 长度, 容量)
 	nameList3 := make([]string, 3, 4)
-	fmt.Println(nameList3)
+	fmt.Println(nameList3, len(nameList3), cap(nameList3))
 	ageList := make([]int, 3, 4)
 	fmt.Println(ageList)
 	nameList3 = append(nameList3[:0], []string{"张三", "李四", "王五", "赵六", "王二"}...)
