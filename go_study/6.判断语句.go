@@ -55,7 +55,13 @@ func main() {
 	case (age >= 18):
 		fmt.Println("成年人")
 	}
+	switch age {
+	case 18:
+		fmt.Println("18岁")
+	case 20:
+		fmt.Println("20岁")
 
+	}
 	switch day := 1; day {
 	case 1:
 		fmt.Println("one")
